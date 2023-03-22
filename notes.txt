@@ -1,0 +1,31 @@
+Database(db) : 
+    1. relational database(mysql) 
+    2. non relational database - mongodb 
+Backend programming: the req is raised from frontend then the responce given by Backend 
+                technologies are java,python, ruby ,node js etc 
+
+
+Entry point : app.js 
+From app.js it goes to routes.js 
+
+userName : Rajesh123 
+pass : dF5tLdEIRqq7I4V2 
+
+mongodb+srv://Rajesh123:dF5tLdEIRqq7I4V2@cluster0.194ppjj.mongodb.net/ecommerce?retryWrites=true&w=majority 
+
+Four request methods: get, post, put, delete 
+CRUD : create, read, update, delete 
+
+{base url}/{endpoint}   ==> localhost:3000/products and method = get --> retrives all the data 
+
+{base url}/{endpoint}/{id} - method = get -> retrives only one single information 
+
+{base url}/{endpoint} - method = post -> creates a data on database 
+
+{base url}/{endpoint}   ==> localhost:3000/products and method = put --> updates all the data 
+
+{base url}/{endpoint}/{id} - method = put -> updates only one single information on the database 
+
+{base url}/{endpoint}   ==> localhost:3000/products and method = delete --> delete all the data 
+
+{base url}/{endpoint}/{id} - method = delete -> delete only one single information on the database 
